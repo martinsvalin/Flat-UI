@@ -39,6 +39,13 @@
   -o-transition:      $properties
   transition:         $properties
 
+=transform($properties)
+  -webkit-transform: $properties
+  -moz-transform:    $properties
+  -ms-transform:     $properties
+  -o-transform:      $properties
+  transform:         $properties
+
 =vertical-gradient($from, $to)
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $from), color-stop(100%, $to))
   background: -webkit-linear-gradient(top, $from, $to)

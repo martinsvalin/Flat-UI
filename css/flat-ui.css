@@ -3,6 +3,13 @@ body {
   color: #34495e;
   font: 14px/1.231 "Lato", sans-serif; }
 
+a {
+  color: #1abc9c;
+  text-decoration: underline; }
+  a:hover {
+    color: #2ecc71;
+    text-decoration: none; }
+
 h1 {
   font-size: 90px;
   font-weight: 900;
@@ -34,6 +41,7 @@ h6 {
   background: #34495e;
   color: white;
   font-size: 16.5px;
+  text-decoration: none;
   text-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -113,12 +121,78 @@ h6 {
     font-weight: 700;
     padding-bottom: 16px;
     padding-top: 15px; }
-  .navbar .nav > li {
+  .navbar .nav > li:hover > ul {
+    top: 100%; }
+  .navbar .nav > li > ul {
+    padding-top: 13px;
+    top: 50%; }
+    .navbar .nav > li > ul li:hover ul {
+      left: 100%; }
+    .navbar .nav > li > ul:before {
+      content: "";
+      border-style: inset;
+      border-width: 0 9px 9px 9px;
+      border-color: transparent transparent #34495e transparent;
+      height: 0px;
+      position: absolute;
+      left: 15px;
+      top: 5px;
+      width: 0px;
+      -webkit-transform: rotate(360deg); }
+  .navbar .nav > li > a {
+    padding: 14px 15px 17px;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s; }
+    .navbar .nav > li > a:hover {
+      color: #1abc9c; }
+  .navbar .nav li {
     position: relative; }
-    .navbar .nav > li > a {
-      padding: 14px 15px 17px; }
-      .navbar .nav > li > a:hover {
-        color: #1abc9c; }
+    .navbar .nav li:hover > ul {
+      opacity: 1;
+      z-index: 100; }
+  .navbar .nav ul {
+    border-radius: 4px;
+    left: 15px;
+    list-style-type: none;
+    margin-left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 234px;
+    z-index: -100;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+    .navbar .nav ul ul {
+      left: 80%;
+      padding-left: 5px; }
+    .navbar .nav ul li {
+      background-color: #34495e;
+      padding: 0 3px 3px; }
+      .navbar .nav ul li:first-child {
+        border-radius: 4px 4px 0 0;
+        padding-top: 3px; }
+      .navbar .nav ul li:last-child {
+        border-radius: 0 0 4px 4px; }
+      .navbar .nav ul li.active > a, .navbar .nav ul li.active > a:hover {
+        background-color: #1abc9c;
+        color: white; }
+    .navbar .nav ul a {
+      border-radius: 2px;
+      color: white;
+      display: block;
+      font-size: 14px;
+      padding: 6px 9px;
+      text-decoration: none;
+      -webkit-transition: 0.25s;
+      -moz-transition: 0.25s;
+      -o-transition: 0.25s;
+      transition: 0.25s; }
+      .navbar .nav ul a:hover {
+        background-color: #1abc9c; }
 
 .navbar-inner {
   border: none;

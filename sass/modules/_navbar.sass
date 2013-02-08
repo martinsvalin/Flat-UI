@@ -10,13 +10,94 @@
     padding-top: 15px
 
   .nav
+    // Navigation link
     > li
-      position: relative
+      &:hover
+        > ul
+          top: 100%
+
+      > ul
+        padding-top: 13px
+        top: 50%
+
+        li
+          &:hover
+            ul
+              left: 100%
+
+        // Dropdown triangle ear
+        &:before
+          content: ''
+          border-style: inset
+          border-width: 0 9px 9px 9px
+          border-color: transparent transparent $base transparent
+          height: 0px
+          position: absolute
+          left: 15px
+          top: 5px
+          width: 0px
+          -webkit-transform: rotate(360deg)
 
       > a
         padding: 14px 15px 17px
+        +transition(.25s)
         &:hover
           color: $firm
+
+    li
+      position: relative
+
+      &:hover
+        > ul
+          opacity: 1
+          z-index: 100
+
+    // Sub menu
+    ul
+      border-radius: 4px
+      left: 15px
+      list-style-type: none
+      margin-left: 0
+      opacity: 0
+      position: absolute
+      top: 0
+      width: 234px
+      z-index: -100
+      +transition(.2s)
+
+      // Deep level sub menu
+      ul
+        left: 80%
+        padding-left: 5px
+
+      // Sub menu item
+      li
+        background-color: $base
+        padding: 0 3px 3px
+
+        &:first-child
+          border-radius: 4px 4px 0 0
+          padding-top: 3px
+
+        &:last-child
+          border-radius: 0 0 4px 4px
+
+        &.active
+          > a, > a:hover
+            background-color: $firm
+            color: $inverse
+
+      // Sub menu link
+      a
+        border-radius: 2px
+        color: $inverse
+        display: block
+        font-size: 14px
+        padding: 6px 9px
+        text-decoration: none
+        +transition(.25s)
+        &:hover
+          background-color: $firm
 
 .navbar-inner
   border: none
@@ -24,6 +105,7 @@
   padding-right: 4px
   +border-radius(6px)
 
+// Inverse skin --------------------------
 .navbar-inverse
   .navbar-inner
     background: $base
