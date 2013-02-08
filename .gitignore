@@ -1,0 +1,6 @@
+*.swp
+*.swo
+.cache
+.local
+*.DS_Store
+
