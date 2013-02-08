@@ -14,10 +14,12 @@
   text-decoration: none
   text-shadow: none
   +box-shadow(none)
+  +transition(.25s)
 
   &:hover
     background-color: scale-color($base, $lightness: 20%)
     color: $inverse
+    +transition(.25s)
 
   &:active
     background-color: scale-color($base, $lightness: -15%)
