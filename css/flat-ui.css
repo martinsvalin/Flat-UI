@@ -345,16 +345,23 @@ h6 {
 .dk_open {
   position: relative; }
   .dk_open .dk_options {
-    display: block; }
+    opacity: 1;
+    margin-top: -1px;
+    z-index: 10; }
   .dk_open .dk_label {
     color: inherit; }
 
 .dk_options {
-  display: none;
-  margin-top: -1px;
+  opacity: 0;
+  margin-top: -21px;
   position: absolute;
   left: 0;
-  width: 220px; }
+  width: 220px;
+  z-index: -100;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
   .select-right .dk_options {
     left: auto;
     right: 0; }
