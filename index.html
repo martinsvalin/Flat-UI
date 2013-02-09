@@ -17,6 +17,7 @@
     <![endif]-->
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/jquery.dropkick-1.0.0.js"></script>
+    <script src="js/custom_checkbox_and_radio.js"></script>
     <script type="text/javascript" charset="utf-8">
       $(function () {
           $('select').dropkick();
@@ -115,7 +116,7 @@
           </div>
         </div>
         <div class="span3">
-          <select value="X-Men" class="span3" tabindex="1" id="select1">
+          <select value="X-Men" class="span3" tabindex="1" name="herolist">
             <option value="0">Choose hero</option>
             <option value="1">Spider Man</option>
             <option value="2">Wolverine</option>
@@ -150,8 +151,7 @@
       </div> <!-- /row -->
 
       <div class="row">
-        <div class="span3"> &nbsp; </div>
-        <div class="span3">
+        <div class="span3 offset3">
           <div class="control-group warning">
             <input type="text" value="Warning" class="span3" />
           </div>
@@ -161,14 +161,60 @@
             <input type="text" value="Info" class="span3" />
           </div>
         </div>
-        <div class="span4"> &nbsp; </div>
       </div> <!-- /row -->
 
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <div class="row">
+        <div class="span3">
+          <h3 class="demo-panel-title">Checkboxes</h3>
+          <label class="checkbox" for="checkbox1">
+            <input type="checkbox" value="" id="checkbox1">
+            Unchecked
+          </label>
+          <label class="checkbox" for="checkbox2">
+            <input type="checkbox" checked="checked" value="" id="checkbox2">
+            Checked
+          </label>
+
+          <label class="checkbox" for="checkbox3">
+            <input type="checkbox" value="" id="checkbox3" disabled="">
+            Disabled unchecked
+          </label>
+          <label class="checkbox" for="checkbox4">
+            <input type="checkbox" checked="checked" value="" id="checkbox4" disabled="">
+            Disabled checked
+          </label>
+        </div>
+
+        <div class="span3">
+          <h3 class="demo-panel-title">Radios</h3>
+          <label class="radio">
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+            Radio is off
+          </label>
+          <label class="radio">
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" checked="">
+            Radio is on
+          </label>
+
+          <label class="radio">
+            <input type="radio" name="optionsRadiosDisabled" id="optionsRadios3" value="option2" disabled="">
+            Disabled radio is off
+          </label>
+          <label class="radio">
+            <input type="radio" name="optionsRadiosDisabled" id="optionsRadios4" value="option2" checked="" disabled="">
+            Disabled radio is on
+          </label>
+        </div>
+
+        <div class="span3">
+          <h3 class="demo-panel-title">Text Box</h3>
+        </div>
+
+        <div class="span3">
+          <h3 class="demo-panel-title">Headings</h3>
+        </div>
+      </div> <!-- /row -->
+
       <br/>
       <br/>
       <br/>

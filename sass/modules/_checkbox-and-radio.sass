@@ -1,0 +1,37 @@
+// Checkbox & Radio
+.checkbox,
+.radio
+  background: url('../images/checkbox-and-radio.png') -210px 0 no-repeat
+  margin-bottom: 12px
+  padding-left: 32px
+
+  &:hover
+    color: $firm
+
+  input
+    opacity: 0
+
+  &.checkbox-checked
+    background-position: -180px -30px
+
+  &.checkbox-disabled
+    background-position: -150px -60px
+    color: $gray
+    cursor: not-allowed
+    &.checkbox-checked
+      background-position: -120px -90px
+
+// Radio
+.radio
+  background-position: -90px -120px
+
+  &.radio-on
+    background-position: -60px -150px
+
+  &.radio-disabled
+    background-position: -30px -180px
+    color: $gray
+    cursor: not-allowed
+    &.radio-on
+      background-position: 0 -210px
+

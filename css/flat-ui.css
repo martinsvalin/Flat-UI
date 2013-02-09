@@ -597,3 +597,37 @@ input,
 textarea,
 .uneditable-input {
   width: 192px; }
+
+.checkbox,
+.radio {
+  background: url("../images/checkbox-and-radio.png") -210px 0 no-repeat;
+  margin-bottom: 12px;
+  padding-left: 32px; }
+  .checkbox:hover,
+  .radio:hover {
+    color: #1abc9c; }
+  .checkbox input,
+  .radio input {
+    opacity: 0; }
+  .checkbox.checkbox-checked,
+  .radio.checkbox-checked {
+    background-position: -180px -30px; }
+  .checkbox.checkbox-disabled,
+  .radio.checkbox-disabled {
+    background-position: -150px -60px;
+    color: #95a5a6;
+    cursor: not-allowed; }
+    .checkbox.checkbox-disabled.checkbox-checked,
+    .radio.checkbox-disabled.checkbox-checked {
+      background-position: -120px -90px; }
+
+.radio {
+  background-position: -90px -120px; }
+  .radio.radio-on {
+    background-position: -60px -150px; }
+  .radio.radio-disabled {
+    background-position: -30px -180px;
+    color: #95a5a6;
+    cursor: not-allowed; }
+    .radio.radio-disabled.radio-on {
+      background-position: 0 -210px; }
