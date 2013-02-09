@@ -63,15 +63,16 @@
   &:after
     clear: both
 
-=last-col
-  display: table-cell
-  float: none
-  width: auto
-  &:after
-    content: ' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . '
-    clear: both
-    display: block
-    height: 0 !important
-    line-height: 0
-    visibility: hidden
+=dropdown-arrow
+  &:before
+    content: ''
+    border-style: inset
+    border-width: 0 9px 9px 9px
+    border-color: transparent transparent $base transparent
+    height: 0px
+    position: absolute
+    left: 15px
+    top: 5px
+    width: 0px
+    -webkit-transform: rotate(360deg)
 

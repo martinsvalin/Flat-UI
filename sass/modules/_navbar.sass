@@ -19,24 +19,14 @@
       > ul
         padding-top: 13px
         top: 80%
+        // Dropdown triangle ear
+        +dropdown-arrow
+
 
         li
           &:hover
             ul
               left: 100%
-
-        // Dropdown triangle ear
-        &:before
-          content: ''
-          border-style: inset
-          border-width: 0 9px 9px 9px
-          border-color: transparent transparent $base transparent
-          height: 0px
-          position: absolute
-          left: 15px
-          top: 5px
-          width: 0px
-          -webkit-transform: rotate(360deg)
 
       > a
         padding: 14px 15px 17px
