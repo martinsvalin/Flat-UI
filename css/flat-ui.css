@@ -299,6 +299,9 @@ h6 {
     top: 5px;
     width: 0px;
     -webkit-transform: rotate(360deg); }
+  .dk_options:before {
+    left: auto;
+    right: 12px; }
   .dk_options li {
     padding-bottom: 3px; }
   .dk_options a {
