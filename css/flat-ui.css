@@ -638,3 +638,49 @@ textarea,
     cursor: not-allowed; }
     .radio.radio-disabled.radio-on {
       background-position: 0 -210px; }
+
+.pure-css-icon {
+  background-color: #1abc9c;
+  border-radius: 50%;
+  height: 512px;
+  margin: auto;
+  position: relative;
+  width: 512px;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+  .pure-css-icon:before, .pure-css-icon:after {
+    background-color: white;
+    border-radius: 100px;
+    content: "";
+    position: absolute;
+    height: 38%;
+    left: 50%;
+    margin: -7.7% 0 0 -16%;
+    top: 50%;
+    width: 8%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s; }
+  .pure-css-icon:after {
+    height: 55%;
+    margin: -21.5% 0 0 12%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .pure-css-icon:hover {
+    background-color: #e74c3c;
+    -webkit-transform: rotate(360deg) scale(0.5);
+    -moz-transform: rotate(360deg) scale(0.5);
+    -ms-transform: rotate(360deg) scale(0.5);
+    -o-transform: rotate(360deg) scale(0.5);
+    transform: rotate(360deg) scale(0.5); }
