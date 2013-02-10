@@ -814,7 +814,7 @@ textarea,
     cursor: default;
     margin-right: 5px;
     margin-bottom: 5px;
-    padding: 6px 6px 6px 12px;
+    padding: 6px 13px 6px 19px;
     position: relative;
     display: inline-block;
     zoom: 1;
@@ -825,6 +825,7 @@ textarea,
     transition: 0.25s; }
     .tagsinput .tag:hover {
       background-color: #16a085;
+      padding-left: 12px;
       padding-right: 20px; }
   .tagsinput input {
     background: transparent;
