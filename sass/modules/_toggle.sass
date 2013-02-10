@@ -1,0 +1,42 @@
+// Toggle
+.toggle
+  background-color: $base
+  border-radius: 60px
+  color: $inverse
+  float: left
+  height: 29px
+  overflow: hidden
+  +clearfix
+  +transition(.25s)
+
+  &.toggle-off
+    background-color: rgba($base, .25)
+    .toggle-radio
+      background-image: url('../images/toggle/icon-off.png')
+      background-position: 0 3px
+      color: $inverse
+      left: 0
+      margin-left: 0
+      margin-right: -13px
+      &:first-child
+        left: -100%
+
+  .toggle-radio
+    background: url('../images/toggle/icon-on.png') right 3px no-repeat
+    color: $firm
+    display: block
+    font-weight: 700
+    left: 100%
+    margin-left: -13px
+    padding: 5px 31px 3px
+    position: relative
+    text-align: center
+    +transition(.25s)
+
+    &:first-child
+      margin-bottom: -28px
+      left: 0
+
+  input
+    display: none
+

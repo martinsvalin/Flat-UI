@@ -42,5 +42,14 @@ $(document).ready(function(){
         setupLabel();
     });
     setupLabel();
+
+    $(".toggle input").eq(0).click(function(e) {
+        $(this).parent().toggleClass("toggle-off");
+    });
+
+    $(".toggle input").eq(1).click(function(e) {
+        $(this).parent().toggleClass("toggle-off");
+    });
+
 });
 

@@ -643,6 +643,54 @@ textarea,
     .radio.radio-disabled.radio-on {
       background-position: 0 -210px; }
 
+.toggle {
+  background-color: #34495e;
+  border-radius: 60px;
+  color: white;
+  float: left;
+  height: 29px;
+  overflow: hidden;
+  *zoom: 1;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s; }
+  .toggle:before, .toggle:after {
+    display: table;
+    content: ""; }
+  .toggle:after {
+    clear: both; }
+  .toggle.toggle-off {
+    background-color: rgba(52, 73, 94, 0.25); }
+    .toggle.toggle-off .toggle-radio {
+      background-image: url("../images/toggle/icon-off.png");
+      background-position: 0 3px;
+      color: white;
+      left: 0;
+      margin-left: 0;
+      margin-right: -13px; }
+      .toggle.toggle-off .toggle-radio:first-child {
+        left: -100%; }
+  .toggle .toggle-radio {
+    background: url("../images/toggle/icon-on.png") right 3px no-repeat;
+    color: #1abc9c;
+    display: block;
+    font-weight: 700;
+    left: 100%;
+    margin-left: -13px;
+    padding: 5px 31px 3px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s; }
+    .toggle .toggle-radio:first-child {
+      margin-bottom: -28px;
+      left: 0; }
+  .toggle input {
+    display: none; }
+
 .pure-css-icon {
   background-color: #1abc9c;
   border-radius: 50%;
