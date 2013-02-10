@@ -799,6 +799,94 @@ textarea,
         border-radius: 6px 0 6px;
         text-align: left; }
 
+.tagsinput {
+  background: white;
+  border: 2px solid #1abc9c;
+  border-radius: 6px;
+  height: 100px;
+  padding: 6px 1px 1px 6px;
+  overflow-y: auto;
+  text-align: left; }
+  .tagsinput .tag {
+    border-radius: 4px;
+    background: #1abc9c;
+    color: white;
+    cursor: default;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 6px 6px 6px 12px;
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s; }
+    .tagsinput .tag:hover {
+      background-color: #16a085;
+      padding-right: 20px; }
+  .tagsinput input {
+    background: transparent;
+    border: none;
+    color: #34495e;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0 0 0 5px;
+    outline: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 1px; }
+
+.tagsinput-remove-link {
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  left: 0;
+  opacity: 0;
+  padding: 9px 7px 3px 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  text-decoration: none;
+  top: 0; }
+  .tagsinput-remove-link:hover {
+    color: white;
+    opacity: 1; }
+  .tagsinput-remove-link:before {
+    color: inherit; }
+
+.tagsinput-add-container {
+  display: inline; }
+
+.tagsinput-add {
+  background-color: rgba(52, 73, 94, 0.33);
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 6px 9px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s; }
+  .tagsinput-add:hover {
+    background-color: #1abc9c; }
+
+.tags_clear {
+  clear: both;
+  width: 100%;
+  height: 0px; }
+
+.not_valid {
+  background: #fbd8db !important;
+  color: #90111a !important; }
+
 .pure-css-icon {
   background-color: #1abc9c;
   border-radius: 50%;

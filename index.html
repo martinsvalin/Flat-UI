@@ -19,12 +19,17 @@
     <script src="js/jquery.dropkick-1.0.0.js"></script>
     <script src="js/custom_checkbox_and_radio.js"></script>
     <script src="js/custom_radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
     <!--[if lt IE 8]>
       <script src="js/icon-font-ie7.js"></script>
     <![endif]-->
     <script type="text/javascript" charset="utf-8">
       $(function () {
           $('select').dropkick();
+      });
+
+      $(document).ready(function() {
+          $('#tagsinput').tagsInput();
       });
     </script>
   </head>
@@ -257,7 +262,20 @@
         </div> <!-- /toggles span3 -->
 
         <div class="span3">
+          <h3 class="demo-panel-title">Tags</h3>
+          <input name="tagsinput" id="tagsinput" class="tagsinput span3" value="foo,bar,baz" />
+        </div>
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="span3">
           <h3 class="demo-panel-title">Headings</h3>
+          <h1>H1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
         </div>
       </div> <!-- /row -->
 

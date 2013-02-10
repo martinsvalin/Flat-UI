@@ -1,0 +1,80 @@
+.tagsinput
+  background: #fff
+  border: 2px solid $firm
+  border-radius: 6px
+  height: 100px
+  padding: 6px 1px 1px 6px
+  overflow-y: auto
+  text-align: left
+
+  .tag
+    border-radius: 4px
+    background: $firm
+    color: $inverse
+    cursor: default
+    margin-right: 5px
+    margin-bottom: 5px
+    padding: 6px 6px 6px 12px
+    position: relative
+    +inline-block
+    +transition(.25s)
+    &:hover
+      background-color: scale-color($firm, $lightness: -15%)
+      padding-right: 20px
+
+  input
+    background: transparent
+    border: none
+    color: $base
+    font-family: $base-font-family
+    font-size: $base-font-size
+    margin: 0px
+    padding: 0 0 0 5px
+    outline: 0
+    margin-right: 5px
+    margin-bottom: 5px
+    width: 1px
+
+.tagsinput-remove-link
+  bottom: 0
+  color: $inverse
+  cursor: pointer
+  font-size: 12px
+  left: 0
+  opacity: 0
+  padding: 9px 7px 3px 0
+  position: absolute
+  right: 0
+  text-align: right
+  text-decoration: none
+  top: 0
+  &:hover
+    color: $inverse
+    opacity: 1
+  &:before
+    color: inherit
+
+.tagsinput-add-container
+  display: inline
+
+.tagsinput-add
+  background-color: rgba($base, .33)
+  border-radius: 3px
+  color: $inverse
+  cursor: pointer
+  margin-bottom: 5px
+  padding: 6px 9px
+  +inline-block
+  +transition(.25s)
+  &:hover
+    background-color: $firm
+
+.tags_clear
+  clear: both
+  width: 100%
+  height: 0px
+
+.not_valid
+  background: #FBD8DB !important
+  color: #90111A !important
+
