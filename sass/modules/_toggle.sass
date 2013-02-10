@@ -3,10 +3,11 @@
   background-color: $base
   border-radius: 60px
   color: $inverse
-  float: left
   height: 29px
+  margin: 0 12px 12px 0
   overflow: hidden
   +clearfix
+  +inline-block
   +transition(.25s)
 
   &.toggle-off
@@ -28,7 +29,7 @@
     font-weight: 700
     left: 100%
     margin-left: -13px
-    padding: 5px 31px 3px
+    padding: 5px 32px 3px
     position: relative
     text-align: center
     +transition(.25s)
