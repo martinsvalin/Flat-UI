@@ -888,6 +888,67 @@ textarea,
   background: #fbd8db !important;
   color: #90111a !important; }
 
+.progress, .ui-slider {
+  background: rgba(52, 73, 94, 0.08);
+  border-radius: 32px;
+  height: 12px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+  .progress .bar, .ui-slider .bar {
+    background: #1abc9c;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important; }
+  .progress .bar-success, .ui-slider .bar-success {
+    background-color: #2ecc71; }
+  .progress .bar-warning, .ui-slider .bar-warning {
+    background-color: #f1c40f; }
+  .progress .bar-danger, .ui-slider .bar-danger {
+    background-color: #e74c3c; }
+  .progress .bar-info, .ui-slider .bar-info {
+    background-color: #3498db; }
+
+.ui-slider {
+  margin-bottom: 20px;
+  position: relative; }
+
+.ui-slider-handle {
+  background-color: #16a085;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 18px;
+  margin-left: -5px;
+  position: absolute;
+  top: -0.2em;
+  width: 18px;
+  z-index: 2;
+  -webkit-transition: background 0.25s;
+  -moz-transition: background 0.25s;
+  -o-transition: background 0.25s;
+  transition: background 0.25s; }
+  .ui-slider-handle:hover, .ui-slider-handle:focus {
+    background-color: #2fe2bf;
+    outline: none; }
+  .ui-slider-handle:active {
+    background-color: #16a085; }
+
+.ui-slider-range {
+  background-color: #1abc9c;
+  border-radius: 30px 0 0 30px;
+  display: block;
+  height: 100%;
+  position: absolute;
+  z-index: 1; }
+
+.ui-slider-segment {
+  background-color: rgba(52, 73, 94, 0.1);
+  border-radius: 50%;
+  float: left;
+  height: 6px;
+  margin: 3px -6px 0 25%;
+  width: 6px; }
+
 .pure-css-icon {
   background-color: #1abc9c;
   border-radius: 50%;
