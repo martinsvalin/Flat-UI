@@ -1,0 +1,73 @@
+// Pagination (very similar to Pager)
+$pagination-color: desaturate(lighten($base, 57.5%), 17%)
+
+.pagination
+  ul
+    background: $pagination-color
+    +border-radius(6px)
+    +box-shadow(none)
+
+    > li
+      &:first-child
+        +border-radius(6px 0 0 6px)
+
+      &:last-child
+        +border-radius(0 6px 6px 0)
+
+      &.previous,
+      &.next
+        > a, > span
+          background: transparent
+          border: none
+          border-right: 2px solid $inverse !important
+          margin: 0 9px 0 0
+          padding: 9px 17px 10px 17px
+          +border-radius(6px 0 0 6px)
+          +box-shadow(none !important)
+
+          &:hover, &:focus
+            background-color: scale-color($pagination-color, $lightness: -15%)
+          &:active
+            background-color: scale-color($pagination-color, $lightness: -30%)
+
+      &.next
+        > a, > span
+          border-left: 2px solid $inverse !important
+          margin-left: 9px
+          margin-right: 0
+          +border-radius(0 6px 6px 0)
+
+      &.active
+        > a, > span
+          background-color: $inverse
+          border-color: $inverse
+          color: $pagination-color
+          &:hover, &:focus
+            background-color: $inverse
+            border-color: $inverse
+            color: $pagination-color
+            +box-shadow(none)
+
+      > a, > span
+        background: $inverse
+        border: 2px solid $pagination-color
+        border-radius: 50px
+        color: $inverse
+        line-height: 16px
+        margin: 8px 5px 7px
+        padding: 0 4px
+        &:hover, :focus
+          background-color: $firm
+          border-color: $firm
+          color: $inverse
+          +box-shadow(0 0 0 2px $firm)
+        &:active
+          background-color: scale-color($firm, $lightness: -15%)
+          border-color: scale-color($firm, $lightness: -15%)
+          +box-shadow((0 0 0 2px scale-color($firm, $lightness: -15%)))
+
+    img
+      // For retina 2x image that is scaled down to 14px for all common screens
+      height: 14px
+      margin-top: -1px
+      vertical-align: middle
