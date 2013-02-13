@@ -63,16 +63,16 @@
   &:after
     clear: both
 
-=dropdown-arrow
+=dropdown-arrow($color: $base, $top: 5px, $left: 15px)
   &:before
     content: ''
     border-style: inset
     border-width: 0 9px 9px 9px
-    border-color: transparent transparent $base transparent
+    border-color: transparent transparent $color transparent
     height: 0px
     position: absolute
-    left: 15px
-    top: 5px
+    left: $left
+    top: $top
     width: 0px
     -webkit-transform: rotate(360deg)
 
