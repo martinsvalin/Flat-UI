@@ -231,6 +231,13 @@ h6 {
 .demo-pager {
   margin-top: -10px; }
 
+.demo-tooltips {
+  height: 126px; }
+
+.demo-tooltip-bottom {
+  position: relative;
+  top: -26px; }
+
 .navbar {
   font-size: 18px; }
   .navbar .brand {
@@ -1121,6 +1128,41 @@ textarea,
   font-size: 15px;
   padding-top: 5px;
   width: 50%; }
+
+.tooltip {
+  font-size: 13px; }
+  .tooltip.in {
+    opacity: 1; }
+  .tooltip.top .tooltip-arrow {
+    border-top-color: #34495e;
+    border-width: 9px 9px 0;
+    bottom: -3px;
+    margin-left: -9px; }
+  .tooltip.right .tooltip-arrow {
+    border-right-color: #34495e;
+    border-width: 9px 9px 9px 0;
+    margin-top: -9px;
+    left: -3px; }
+  .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #34495e;
+    border-width: 0 9px 9px;
+    margin-left: -9px;
+    top: -3px; }
+  .tooltip.left .tooltip-arrow {
+    border-right-color: #34495e;
+    border-width: 9px 9px 9px 0;
+    margin-top: -3px;
+    top: -3px; }
+
+.tooltip-inner {
+  background-color: #34495e;
+  line-height: 18px;
+  padding: 12px 12px;
+  text-align: center;
+  width: 183px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; }
 
 .pure-css-icon {
   background-color: #1abc9c;
