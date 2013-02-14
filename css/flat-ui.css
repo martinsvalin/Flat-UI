@@ -241,6 +241,9 @@ h6 {
 .demo-headings {
   margin-bottom: -9px; }
 
+.demo-tiles {
+  padding: 46px 0; }
+
 .navbar {
   font-size: 18px; }
   .navbar .brand {
@@ -1267,6 +1270,23 @@ textarea,
   color: #7f8c8d;
   font-weight: 700;
   margin-top: -5px; }
+
+.tile {
+  background-color: #e8edf2;
+  border-radius: 6px;
+  padding: 14px;
+  text-align: center; }
+  .tile p {
+    font-size: 15px;
+    margin-bottom: 33px; }
+
+.tile-image {
+  height: 111px;
+  margin: 20px 0 27px; }
+
+.tile-title {
+  font-size: 20px;
+  margin: 0; }
 
 .pure-css-icon {
   background-color: #1abc9c;
