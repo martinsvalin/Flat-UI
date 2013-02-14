@@ -21,14 +21,9 @@ $pagination-color: desaturate(lighten($base, 57.5%), 17%)
           border: none
           border-right: 2px solid $inverse !important
           margin: 0 9px 0 0
-          padding: 9px 17px 10px 17px
+          padding: 11px 17px 12px 17px
           +border-radius(6px 0 0 6px)
           +box-shadow(none !important)
-
-          &:hover, &:focus
-            background-color: scale-color($pagination-color, $lightness: -15%)
-          &:active
-            background-color: scale-color($pagination-color, $lightness: -30%)
 
       &.next
         > a, > span
@@ -41,7 +36,10 @@ $pagination-color: desaturate(lighten($base, 57.5%), 17%)
         > a, > span
           background-color: $inverse
           border-color: $inverse
+          border-width: 2px
           color: $pagination-color
+          margin: 10px 5px 9px
+
           &:hover, &:focus
             background-color: $inverse
             border-color: $inverse
@@ -50,21 +48,22 @@ $pagination-color: desaturate(lighten($base, 57.5%), 17%)
 
       > a, > span
         background: $inverse
-        border: 2px solid $pagination-color
+        border: 5px solid $pagination-color
         border-radius: 50px
         color: $inverse
         line-height: 16px
-        margin: 8px 5px 7px
+        margin: 7px 2px 6px
         padding: 0 4px
+        +transition(.15s ease-out)
+
         &:hover, :focus
           background-color: $firm
           border-color: $firm
           color: $inverse
-          +box-shadow(0 0 0 2px $firm)
+
         &:active
           background-color: scale-color($firm, $lightness: -15%)
           border-color: scale-color($firm, $lightness: -15%)
-          +box-shadow((0 0 0 2px scale-color($firm, $lightness: -15%)))
 
     img
       // For retina 2x image that is scaled down to 14px for all common screens
