@@ -366,9 +366,13 @@ h6 {
 .demo-illustrations {
   margin-bottom: 45px; }
   .demo-illustrations img {
-    height: 111px;
-    margin-left: 23px;
-    width: 112px; }
+    height: 100px;
+    margin-left: 35px;
+    width: 100px;
+    vertical-align: bottom; }
+    .demo-illustrations img.big-illustration {
+      height: 111px;
+      width: 112px; }
     .demo-illustrations img:first-child {
       margin-left: 0; }
 
@@ -1409,8 +1413,13 @@ textarea,
     margin-bottom: 33px; }
 
 .tile-image {
-  height: 111px;
-  margin: 20px 0 27px; }
+  height: 100px;
+  margin: 31px 0 27px;
+  vertical-align: bottom; }
+  .tile-image.big-illustration {
+    height: 111px;
+    margin-top: 20px;
+    width: 112px; }
 
 .tile-title {
   font-size: 20px;
