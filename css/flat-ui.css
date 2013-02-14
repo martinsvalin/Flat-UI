@@ -311,6 +311,10 @@ h6 {
 .demo-panel-title {
   margin-bottom: 20px;
   padding-top: 20px; }
+  .demo-panel-title small {
+    color: #b9c8d8;
+    font-size: inherit;
+    font-weight: 400; }
 
 .demo-navigation {
   margin-bottom: -4px;
@@ -341,11 +345,6 @@ h6 {
     .demo-icons-24 span:first-child {
       margin-left: 0; }
 
-.demo-icons .demo-panel-title small {
-  color: #b9c8d8;
-  font-size: inherit;
-  font-weight: 400; }
-
 .demo-icons-16 {
   font-size: 16px;
   margin: 0 0 38px 5px;
@@ -363,6 +362,15 @@ h6 {
   margin-left: 0 !important;
   position: absolute;
   width: 80px; }
+
+.demo-illustrations {
+  margin-bottom: 40px; }
+  .demo-illustrations img {
+    height: 111px;
+    margin-left: 23px;
+    width: 112px; }
+    .demo-illustrations img:first-child {
+      margin-left: 0; }
 
 .navbar {
   font-size: 18px; }
