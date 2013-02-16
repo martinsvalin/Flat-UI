@@ -17,9 +17,10 @@
           top: 100%
 
       > ul
-        background-color: #{$inverse}\9
         padding-top: 13px
         top: 80%
+        // IE treats transparent background as not hoverable area. Let's fix that.
+        background-color: #{$inverse}\9
         // Dropdown triangle ear
         +dropdown-arrow
 
@@ -27,6 +28,7 @@
           &:hover
             ul
               left: 100%
+              display: block\9
 
       > a
         padding: 14px 15px 17px

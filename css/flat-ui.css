@@ -415,9 +415,9 @@ h6 {
   .navbar .nav > li:hover > ul {
     top: 100%; }
   .navbar .nav > li > ul {
-    background-color: white\9;
     padding-top: 13px;
-    top: 80%; }
+    top: 80%;
+    background-color: white\9; }
     .navbar .nav > li > ul:before {
       content: "";
       border-style: inset;
@@ -430,7 +430,8 @@ h6 {
       width: 0px;
       -webkit-transform: rotate(360deg); }
     .navbar .nav > li > ul li:hover ul {
-      left: 100%; }
+      left: 100%;
+      display: block\9; }
   .navbar .nav > li > a {
     padding: 14px 15px 17px; }
     .navbar .nav > li > a:hover {
