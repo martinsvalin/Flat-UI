@@ -20,5 +20,8 @@ $(document).ready(function() {
         orientation: "horizontal",
         range: "min",
     });
+
+    // JS input/textarea placeholder
+    $("input, textarea").placeholder();
 });
 
