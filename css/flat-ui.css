@@ -430,11 +430,6 @@ h6 {
       width: 0px;
       -webkit-transform: rotate(360deg); }
     .navbar .nav > li > ul li:hover ul {
-      display: block\9;
-      opacity: 1;
-      filter: alpha(opacity=100);
-      zoom: 1; }
-    .navbar .nav > li > ul li ul {
       left: 100%; }
   .navbar .nav > li > a {
     padding: 14px 15px 17px; }
