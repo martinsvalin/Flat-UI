@@ -29,10 +29,10 @@
         li
           &:hover
             ul
-              left: 100%
-              z-index: 100
               display: block\9
               +opacity(1)
+          ul
+            left: 100%
 
       // First level level
       > a
@@ -59,9 +59,10 @@
       position: absolute
       top: 0
       width: 234px
+      z-index: -100
       // Don't show it at all by default since IE doesn't get modern transitions
       display: none\9
-      +opacity(0)
+      +opacity(0.2)
       +transition(.3s ease-out)
 
       // Deep level sub menu
