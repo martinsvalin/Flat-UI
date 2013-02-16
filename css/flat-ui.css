@@ -1147,15 +1147,20 @@ textarea,
     background: #1abc9c;
     -webkit-box-shadow: none !important;
     -moz-box-shadow: none !important;
-    box-shadow: none !important; }
+    box-shadow: none !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
   .progress .bar-success, .ui-slider .bar-success {
-    background-color: #2ecc71; }
+    background-color: #2ecc71;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
   .progress .bar-warning, .ui-slider .bar-warning {
-    background-color: #f1c40f; }
+    background-color: #f1c40f;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
   .progress .bar-danger, .ui-slider .bar-danger {
-    background-color: #e74c3c; }
+    background-color: #e74c3c;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
   .progress .bar-info, .ui-slider .bar-info {
-    background-color: #3498db; }
+    background-color: #3498db;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
 .ui-slider {
   margin-bottom: 20px;
