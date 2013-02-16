@@ -1114,7 +1114,7 @@ textarea,
   z-index: 2;
   display: none\9; }
   .tagsinput-remove-link:before {
-    color: inherit; }
+    color: white; }
 
 .tagsinput-add-container {
   display: inline; }
