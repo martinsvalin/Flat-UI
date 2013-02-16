@@ -412,6 +412,9 @@ h6 {
     font-weight: 700;
     padding-bottom: 16px;
     padding-top: 15px; }
+  .navbar .nav > li:hover > ul {
+    top: 100%;
+    top: 80% \9; }
   .navbar .nav > li > ul {
     padding-top: 13px;
     top: 80%;
@@ -427,6 +430,9 @@ h6 {
       top: 5px;
       width: 0px;
       -webkit-transform: rotate(360deg); }
+    .navbar .nav > li > ul li:hover ul {
+      display: block\9;
+      opacity: 1; }
     .navbar .nav > li > ul li ul {
       left: 100%; }
   .navbar .nav > li > a {
@@ -435,6 +441,9 @@ h6 {
       color: #1abc9c; }
   .navbar .nav li {
     position: relative; }
+    .navbar .nav li:hover > ul {
+      display: block\9;
+      opacity: 1; }
   .navbar .nav ul {
     border-radius: 4px;
     left: 15px;
@@ -443,6 +452,8 @@ h6 {
     position: absolute;
     top: 0;
     width: 234px;
+    display: none\9;
+    opacity: 0;
     -webkit-transition: 0.3s ease-out;
     -moz-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
