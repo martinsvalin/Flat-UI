@@ -1077,6 +1077,8 @@ textarea,
     -moz-transition: 0.15s linear;
     -o-transition: 0.15s linear;
     transition: 0.15s linear; }
+    .tagsinput .tag:after {
+      content: x\9; }
     .tagsinput .tag:hover {
       background-color: #16a085;
       padding-left: 12px;
@@ -1104,7 +1106,7 @@ textarea,
   cursor: pointer;
   font-size: 12px;
   left: 0;
-  opacity: 0.2;
+  opacity: 0;
   padding: 9px 7px 3px 0;
   position: absolute;
   right: 0;

@@ -18,6 +18,8 @@
     position: relative
     +inline-block
     +transition(.15s linear)
+    &:after
+      content: x\9
     &:hover
       background-color: scale-color($firm, $lightness: -15%)
       padding-left: 12px
@@ -48,7 +50,7 @@
   cursor: pointer
   font-size: 12px
   left: 0
-  opacity: .2
+  opacity: 0
   padding: 9px 7px 3px 0
   position: absolute
   right: 0
