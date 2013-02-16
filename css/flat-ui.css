@@ -456,7 +456,6 @@ h6 {
     position: absolute;
     top: 0;
     width: 234px;
-    z-index: -100;
     display: none\9;
     opacity: 0;
     filter: alpha(opacity=0);
