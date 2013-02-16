@@ -30,9 +30,7 @@ input[type="color"],
   text-indent: 1px
   +border-radius(6px)
   +box-shadow(none)
-
-  &.placeholder
-    color: scale-color($base, $lightness: 60%)
+  +placeholder-color(desaturate(scale-color($base, $lightness: 60%), 15%))
 
   &:focus
     border-color: $firm
