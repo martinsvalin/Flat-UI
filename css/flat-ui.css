@@ -1079,6 +1079,9 @@ textarea,
       background-color: #16a085;
       padding-left: 12px;
       padding-right: 20px; }
+      .tagsinput .tag:hover .tagsinput-remove-link {
+        color: white;
+        opacity: 1; }
   .tagsinput input {
     background: transparent;
     border: none;
@@ -1106,9 +1109,6 @@ textarea,
   text-decoration: none;
   top: 0;
   z-index: 2; }
-  .tagsinput-remove-link:hover {
-    color: white;
-    opacity: 1; }
   .tagsinput-remove-link:before {
     color: inherit; }
 
