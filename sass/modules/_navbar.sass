@@ -98,12 +98,13 @@
   padding-right: 4px
   +border-radius(6px)
   // Drop IE linear gradient
-  filter: unquote('progid:DXImageTransform.Microsoft.gradient(none)')
+  filter: unquote('progid:DXImageTransform.Microsoft.gradient(enabled = false)')
 
 // Inverse skin --------------------------
 .navbar-inverse
   .navbar-inner
     background: $base
+    filter: unquote('progid:DXImageTransform.Microsoft.gradient(enabled = false)')
 
   .nav
     > li > a

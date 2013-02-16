@@ -488,10 +488,11 @@ h6 {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  filter: progid:DXImageTransform.Microsoft.gradient(none); }
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
 .navbar-inverse .navbar-inner {
-  background: #34495e; }
+  background: #34495e;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 .navbar-inverse .nav > li > a {
   color: white; }
 .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
