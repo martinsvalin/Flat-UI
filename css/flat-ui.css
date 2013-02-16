@@ -413,7 +413,7 @@ h6 {
     padding-bottom: 16px;
     padding-top: 15px; }
   .navbar .nav > li:hover > ul {
-    top: 100%; }
+    top: 99%; }
   .navbar .nav > li > ul {
     padding-top: 13px;
     top: 80%; }
