@@ -18,8 +18,6 @@
     position: relative
     +inline-block
     +transition(.15s linear)
-    &:after
-      content: x\9
     &:hover
       background-color: scale-color($firm, $lightness: -15%)
       padding-left: 12px
@@ -59,7 +57,7 @@
   top: 0
   z-index: 2
   // Opacity fallback for IE
-  // display: none\9
+  display: none\9
 
   &:before
     color: $inverse
