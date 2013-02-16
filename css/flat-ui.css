@@ -1035,8 +1035,6 @@ textarea,
     .toggle .toggle-radio:first-child {
       margin-bottom: -29px;
       left: 0; }
-  .toggle input {
-    display: none; }
   .toggle.toggle-icon {
     border-radius: 6px; }
     .toggle.toggle-icon.toggle-off .toggle-radio {
