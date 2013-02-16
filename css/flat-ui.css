@@ -632,27 +632,21 @@ h6 {
 .dk_open {
   position: relative; }
   .dk_open .dk_options {
-    height: auto;
     margin-top: -1px;
-    z-index: 10;
-    display: block\9;
     opacity: 1;
-    filter: alpha(opacity=100);
-    zoom: 1; }
+    z-index: 10;
+    display: block\9; }
   .dk_open .dk_label {
     color: inherit; }
 
 .dk_options {
-  height: 0;
   margin-top: -21px;
   position: absolute;
   left: 0;
+  opacity: 0;
   width: 220px;
   z-index: -100;
   display: none\9;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  zoom: 1;
   -webkit-transition: 0.3s ease-out;
   -moz-transition: 0.3s ease-out;
   -o-transition: 0.3s ease-out;
