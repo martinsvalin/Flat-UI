@@ -413,9 +413,9 @@ h6 {
     padding-bottom: 16px;
     padding-top: 15px; }
   .navbar .nav > li:hover > ul {
-    top: 100%;
-    top: 80% \9; }
+    top: 100%; }
   .navbar .nav > li > ul {
+    background-color: #eeeeee;
     padding-top: 13px;
     top: 80%; }
     .navbar .nav > li > ul:before {
@@ -450,14 +450,14 @@ h6 {
     left: 15px;
     list-style-type: none;
     margin-left: 0;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    zoom: 1;
     position: absolute;
     top: 0;
     width: 234px;
     z-index: -100;
     display: none\9;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    zoom: 1;
     -webkit-transition: 0.3s ease-out;
     -moz-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
