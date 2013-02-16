@@ -1111,8 +1111,7 @@ textarea,
   text-align: right;
   text-decoration: none;
   top: 0;
-  z-index: 2;
-  display: none\9; }
+  z-index: 2; }
   .tagsinput-remove-link:before {
     color: white; }
 
