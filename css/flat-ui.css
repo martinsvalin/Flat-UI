@@ -991,6 +991,7 @@ textarea,
   color: white;
   height: 29px;
   margin: 0 12px 12px 0;
+  overflow: hidden;
   *zoom: 1;
   display: inline-block;
   zoom: 1;
@@ -1035,6 +1036,12 @@ textarea,
     .toggle .toggle-radio:first-child {
       margin-bottom: -29px;
       left: 0; }
+  .toggle input {
+    display: none;
+    display: none\9;
+    opacity: 0.01;
+    filter: alpha(opacity=1);
+    zoom: 1; }
   .toggle.toggle-icon {
     border-radius: 6px; }
     .toggle.toggle-icon.toggle-off .toggle-radio {
