@@ -1063,7 +1063,7 @@ textarea,
     border-radius: 4px;
     background: #1abc9c;
     color: white;
-    cursor: default;
+    cursor: pointer;
     margin-right: 5px;
     margin-bottom: 5px;
     padding: 6px 13px 6px 19px;
