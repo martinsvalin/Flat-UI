@@ -1180,9 +1180,9 @@ textarea,
   border-radius: 50%;
   cursor: pointer;
   height: 18px;
-  margin-left: -5px;
+  margin-left: -9px;
   position: absolute;
-  top: -0.2em;
+  top: -3px;
   width: 18px;
   z-index: 2;
   -webkit-transition: background 0.25s;
