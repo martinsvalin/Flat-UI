@@ -25,7 +25,7 @@
 
       .tagsinput-remove-link
         color: $inverse
-        opacity: 1
+        +opacity(1)
 
   input
     background: transparent
@@ -46,7 +46,6 @@
   cursor: pointer
   font-size: 12px
   left: 0
-  opacity: 0
   padding: 9px 7px 3px 0
   position: absolute
   right: 0
@@ -54,6 +53,7 @@
   text-decoration: none
   top: 0
   z-index: 2
+  +opacity(0)
   &:before
     color: inherit
 

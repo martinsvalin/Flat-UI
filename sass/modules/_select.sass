@@ -118,22 +118,22 @@
   position: relative
   .dk_options
     height: auto
-    opacity: 1
     margin-top: -1px
     z-index: 10
     display: block\9
+    +opacity(1)
   .dk_label
     color: inherit
 
 .dk_options
   height: 0
-  opacity: 0
   margin-top: -21px
   position: absolute
   left: 0
   width: 220px
   z-index: -100
   display: none\9
+  +opacity(0)
   +transition(.3s ease-out)
 
   // Align by right
