@@ -1006,7 +1006,7 @@ textarea,
   .toggle:after {
     clear: both; }
   .toggle.toggle-off {
-    background-color: rgba(52, 73, 94, 0.25); }
+    background-color: #cbd2d8; }
     .toggle.toggle-off .toggle-radio {
       background-image: url("../images/toggle/icon-off.png");
       background-position: 0 0;
@@ -1120,7 +1120,7 @@ textarea,
   display: inline; }
 
 .tagsinput-add {
-  background-color: rgba(52, 73, 94, 0.33);
+  background-color: #bbc3cb;
   border-radius: 3px;
   color: white;
   cursor: pointer;
@@ -1146,7 +1146,7 @@ textarea,
   color: #90111a !important; }
 
 .progress, .ui-slider {
-  background: rgba(52, 73, 94, 0.08);
+  background: #e8edf2;
   border-radius: 32px;
   height: 12px;
   -webkit-box-shadow: none;
@@ -1204,7 +1204,7 @@ textarea,
   z-index: 1; }
 
 .ui-slider-segment {
-  background-color: rgba(52, 73, 94, 0.1);
+  background-color: #d6dbe0;
   border-radius: 50%;
   float: left;
   height: 6px;
