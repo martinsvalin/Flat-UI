@@ -1038,10 +1038,8 @@ textarea,
       left: 0; }
   .toggle input {
     display: none;
-    height: 1px;
     position: absolute;
     outline: none !important;
-    width: 1px;
     display: block\9;
     opacity: 0.01;
     filter: alpha(opacity=1);
