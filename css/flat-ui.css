@@ -1233,7 +1233,9 @@ textarea,
     -moz-border-radius: 6px 0 0 6px;
     border-radius: 6px 0 0 6px; }
     .pager li:first-child > a img, .pager li:first-child > span img {
+      margin-left: 0;
       margin-right: 13px;
+      margin-left: 0 \9;
       margin-right: 9px \9; }
   .pager li.pager-center {
     padding: 9px 20px 10px;
@@ -1244,7 +1246,8 @@ textarea,
     *display: inline; }
   .pager li.previous img, .pager li.next img {
     height: 14px;
-    margin-top: -1px;
+    margin: -1px 0 0 13px;
+    margin-left: 9px \9;
     vertical-align: middle; }
   .pager li > a, .pager li > span {
     background: none;
