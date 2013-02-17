@@ -1037,11 +1037,10 @@ textarea,
       margin-bottom: -29px;
       left: 0; }
   .toggle input {
-    border: none;
     display: none;
     height: 1px;
     position: absolute;
-    outline: none;
+    outline: none !important;
     width: 1px;
     display: block\9;
     opacity: 0.01;
