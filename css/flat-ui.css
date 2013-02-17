@@ -291,6 +291,9 @@ h6 {
       -moz-border-radius: 0 6px 6px 0;
       border-radius: 0 6px 6px 0; }
 
+.btn-toolbar .btn.active {
+  color: white; }
+
 .demo-headline {
   padding: 73px 0 110px;
   text-align: center; }
