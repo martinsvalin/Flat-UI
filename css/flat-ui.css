@@ -1229,6 +1229,7 @@ textarea,
   *display: inline; }
   .pager li:first-child > a, .pager li:first-child > span {
     border-left: none;
+    padding-left: 20px;
     -webkit-border-radius: 6px 0 0 6px;
     -moz-border-radius: 6px 0 0 6px;
     border-radius: 6px 0 0 6px; }
@@ -1238,7 +1239,7 @@ textarea,
       margin-left: 0 \9;
       margin-right: 9px \9; }
   .pager li.pager-center {
-    padding: 9px 20px 10px;
+    padding: 9px 18px 10px;
     padding-left: 0;
     padding-right: 0;
     display: inline-block;
@@ -1254,7 +1255,8 @@ textarea,
     border: none;
     border-left: 2px solid #2c3e50;
     color: white;
-    padding: 9px 20px 10px;
+    padding: 9px 18px 10px;
+    padding-left: 7px;
     text-decoration: none;
     white-space: nowrap;
     -webkit-border-radius: 0 6px 6px 0;
