@@ -24,11 +24,11 @@ $(document).ready(function() {
     // JS input/textarea placeholder
     $("input, textarea").placeholder();
 
-    var colors = ["#3498db", "#2980b9", "#2c3e50"];
+    var colors = ["#2980b9", "#3498db"];
     var index = 0;
 
     function rotateBG() {
-        if (index > 2) {
+        if (index > 1) {
             index = 0;
         }
 
