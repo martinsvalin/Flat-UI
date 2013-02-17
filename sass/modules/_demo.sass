@@ -4,8 +4,16 @@
   text-align: center
 
 .demo-logo
-  background: url('../images/demo/logo.png') center 0 no-repeat
-  padding-top: 215px
+  .logo
+    background: $firm url('../images/demo/logo-mask.png') center 0 no-repeat
+    background-size: 256px 186px
+    font-size: 1px
+    height: 186px
+    margin: 0 auto 26px
+    overflow: hidden
+    text-indent: -9999em
+    width: 256px
+    +transition(background-color 2s linear)
 
   small
     color: rgba($base, .3)
@@ -13,6 +21,7 @@
     font-size: 22px
     font-weight: 700
     letter-spacing: -1px
+    padding-top: 5px
 
 // Panels delimiter
 .demo-row
@@ -120,4 +129,9 @@
   img
     height: 104px
     width: 82px
+
+// Serving 2x images
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2)
+  .logo
+    background-image: url('../images/demo/logo-mask-2x.png')
 
