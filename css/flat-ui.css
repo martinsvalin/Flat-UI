@@ -1213,6 +1213,8 @@ textarea,
   -moz-transition: background 0.25s;
   -o-transition: background 0.25s;
   transition: background 0.25s; }
+  .ui-slider-handle[style*='100'] {
+    margin-left: -15px; }
   .ui-slider-handle:hover, .ui-slider-handle:focus {
     background-color: #2fe2bf;
     outline: none; }
