@@ -3,15 +3,16 @@ function setupLabel() {
     // Checkbox
     var checkBox = ".checkbox";
     var checkBoxInput = checkBox + " input[type='checkbox']";
-    var checkBoxChecked = "checkbox-checked";
-    var checkBoxDisabled = "checkbox-disabled";
+    var checkBoxChecked = "checked";
+    var checkBoxDisabled = "disabled";
 
     // Radio
     var radio = ".radio";
     var radioInput = radio + " input[type='radio']";
-    var radioOn = "radio-on";
-    var radioDisabled = "radio-disabled";
+    var radioOn = "checked";
+    var radioDisabled = "disabled";
 
+    // Checkboxes
     if ($(checkBoxInput).length) {
         $(checkBox).each(function(){
             $(this).removeClass(checkBoxChecked);
@@ -23,6 +24,8 @@ function setupLabel() {
             $(this).parent(checkBox).addClass(checkBoxDisabled);
         });
     };
+
+    // Radios
     if ($(radioInput).length) {
         $(radio).each(function(){
             $(this).removeClass(radioOn);
@@ -37,11 +40,14 @@ function setupLabel() {
 };
 
 $(document).ready(function(){
-    $("body").addClass("has-js");
+    $("html").addClass("has-js");
+
+    // First let's prepend icons (needed for effects)
+    $(".checkbox, .radio").prepend("<span class='icon'></span><span class='icon-to-fade'></span>");
+
     $(".checkbox, .radio").click(function(){
         setupLabel();
     });
     setupLabel();
-
 });
 

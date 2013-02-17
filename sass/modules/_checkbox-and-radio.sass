@@ -1,9 +1,9 @@
 // Checkbox & Radio
 .checkbox,
 .radio
-  background: url('../images/checkbox-and-radio.png') -210px 0 no-repeat
   margin-bottom: 12px
   padding-left: 32px
+  position: relative
   +transition(.25s)
 
   &:hover
@@ -12,27 +12,58 @@
   input
     +opacity(0)
 
-  &.checkbox-checked
-    background-position: -180px -30px
+  &.checked
+    .icon
+      background-position: -60px -30px
+      opacity: 1
+      display: block\9
 
-  &.checkbox-disabled
-    background-position: -150px -60px
+    .icon-to-fade
+      opacity: 0
+      display: none\9
+
+  // Disabled state
+  &.disabled
     color: $gray
     cursor: not-allowed
-    &.checkbox-checked
-      background-position: -120px -90px
+
+    .icon
+      opacity: 0
+      display: none\9
+
+    .icon-to-fade
+      background-position: -30px -60px
+
+    &.checked
+      .icon
+        background-position: 0 -90px
+        opacity: 1
+        display: block\9
+
+      .icon-to-fade
+        opacity: 0
+        display: none\9
+
+  // Icon
+  .icon,
+  .icon-to-fade
+    background: url('../images/checkbox.png') -90px 0 no-repeat
+    display: block
+    height: 20px
+    left: 0
+    position: absolute
+    top: -1px
+    width: 20px
+    +transition(opacity .3s ease-out)
+
+  .icon
+    opacity: 0
+    top: 0
+    display: none\9
 
 // Radio
 .radio
-  background-position: -90px -120px
-
-  &.radio-on
-    background-position: -60px -150px
-
-  &.radio-disabled
-    background-position: -30px -180px
-    color: $gray
-    cursor: not-allowed
-    &.radio-on
-      background-position: 0 -210px
+  .icon,
+  .icon-to-fade
+    background-image: url('../images/radio.png')
 
