@@ -8,6 +8,9 @@
   &.top
     .tooltip-arrow
       border-top-color: $base
+      border-width: 9px 9px 0
+      bottom: -3px
+      margin-left: -9px
 
   &.right
     .tooltip-arrow
@@ -17,11 +20,12 @@
       left: -3px
 
   &.bottom
-    .tooltip-arrow
-      border-bottom-color: $base
-      border-width: 0 9px 9px
+    +dropdown-arrow($base, -3px, 50%)
+    &:before
       margin-left: -9px
-      top: -3px
+
+    .tooltip-arrow
+      display: none
 
   &.left
     .tooltip-arrow
