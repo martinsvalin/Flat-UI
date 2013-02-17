@@ -296,7 +296,7 @@ h6 {
   text-align: center; }
 
 .demo-logo .logo {
-  background: #1abc9c url("../images/demo/logo-mask.png") center 0 no-repeat;
+  background: #34495e url("../images/demo/logo-mask.png") center 0 no-repeat;
   background-size: 256px 186px;
   font-size: 1px;
   height: 186px;
