@@ -1252,6 +1252,7 @@ textarea,
     color: white;
     padding: 9px 18px 10px;
     text-decoration: none;
+    white-space: nowrap;
     -webkit-border-radius: 0 6px 6px 0;
     -moz-border-radius: 0 6px 6px 0;
     border-radius: 0 6px 6px 0; }
