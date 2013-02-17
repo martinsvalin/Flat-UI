@@ -420,7 +420,7 @@ h6 {
     background-color: white\9; }
     .navbar .nav > li > ul:before {
       content: "";
-      border-style: solid;
+      border-style: inset;
       border-width: 0 9px 9px 9px;
       border-color: transparent transparent #34495e transparent;
       height: 0px;
@@ -577,7 +577,7 @@ h6 {
   padding-top: 14px; }
   .dk_options:before {
     content: "";
-    border-style: solid;
+    border-style: inset;
     border-width: 0 9px 9px 9px;
     border-color: transparent transparent #34495e transparent;
     height: 0px;
@@ -1331,7 +1331,7 @@ textarea,
   position: relative; }
   .share:before {
     content: "";
-    border-style: solid;
+    border-style: inset;
     border-width: 0 9px 9px 9px;
     border-color: transparent transparent #ecf0f5 transparent;
     height: 0px;
@@ -1376,7 +1376,7 @@ textarea,
     zoom: 1; }
   .tooltip.top .tooltip-arrow {
     border-top-color: #34495e;
-    border-width: 9px 9px 0;
+    border-width: 9px 9px 0 !important;
     bottom: -3px;
     margin-left: -9px; }
   .tooltip.right .tooltip-arrow {
