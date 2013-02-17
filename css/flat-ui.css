@@ -1594,8 +1594,8 @@ footer {
     line-height: 20px; }
 
 .footer-brand {
-  float: right;
-  margin-top: 20px; }
+  padding-top: 20px;
+  text-align: right; }
   .footer-brand img {
     width: 216px; }
 
