@@ -6,10 +6,11 @@
     +opacity(1)
 
   &.top
+    padding-bottom: 8px
     .tooltip-arrow
       border-top-color: $base
       border-width: 9px 9px 0
-      bottom: -3px
+      bottom: -1px
       margin-left: -9px
 
   &.right
@@ -20,14 +21,12 @@
       left: -3px
 
   &.bottom
-    margin-top: 7px
     padding-top: 8px
-    +dropdown-arrow($base, -1px, 50%)
-    &:before
-      margin-left: -9px
-
     .tooltip-arrow
-      display: none
+      border-bottom-color: $base
+      border-width: 0 9px 9px
+      margin-left: -9px
+      top: -1px
 
   &.left
     .tooltip-arrow
