@@ -1375,11 +1375,11 @@ textarea,
     filter: alpha(opacity=100);
     zoom: 1; }
   .tooltip.top {
-    padding-bottom: 8px; }
+    padding-bottom: 9px; }
     .tooltip.top .tooltip-arrow {
       border-top-color: #34495e;
       border-width: 9px 9px 0;
-      bottom: -1px;
+      bottom: 0;
       margin-left: -9px; }
   .tooltip.right .tooltip-arrow {
     border-right-color: #34495e;
