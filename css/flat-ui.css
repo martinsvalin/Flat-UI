@@ -1031,11 +1031,7 @@ textarea,
     opacity: 0;
     top: 0;
     z-index: 2;
-    display: none\9;
-    -webkit-transition: opacity 0.2s ease-in;
-    -moz-transition: opacity 0.2s ease-in;
-    -o-transition: opacity 0.2s ease-in;
-    transition: opacity 0.2s ease-in; }
+    display: none\9; }
 
 .radio .icon,
 .radio .icon-to-fade {
