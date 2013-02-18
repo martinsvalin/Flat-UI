@@ -1146,6 +1146,7 @@ textarea,
     cursor: pointer;
     margin-right: 5px;
     margin-bottom: 5px;
+    overflow: hidden;
     padding: 6px 13px 6px 19px;
     position: relative;
     display: inline-block;
@@ -1181,7 +1182,6 @@ textarea,
   color: white;
   cursor: pointer;
   font-size: 12px;
-  left: 0;
   opacity: 0;
   padding: 9px 7px 3px 0;
   position: absolute;
@@ -1189,6 +1189,7 @@ textarea,
   text-align: right;
   text-decoration: none;
   top: 0;
+  width: 600px;
   z-index: 2;
   display: none\9; }
   .tagsinput-remove-link:before {
