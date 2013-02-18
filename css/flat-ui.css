@@ -976,6 +976,7 @@ textarea,
     color: #1abc9c; }
   .checkbox input,
   .radio input {
+    outline: none !important;
     opacity: 0;
     filter: alpha(opacity=0);
     zoom: 1; }
