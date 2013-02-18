@@ -24,6 +24,7 @@ $(document).ready(function() {
     // JS input/textarea placeholder
     $("input, textarea").placeholder();
 
+    // Make logo shine with 2 rotatable colors
     var colors = ["#2980b9", "#3498db"];
     var index = 0;
 
@@ -36,6 +37,19 @@ $(document).ready(function() {
         index++;
     }
     window.setInterval(rotateBG, 5000);
+
+    // Make pagination demo work
+    $(".pagination a").click(function() {
+        if (!$(this).parent().hasClass("previous") && !$(this).parent().hasClass("next")) {
+            $(this).parent().siblings("li").removeClass("active");
+            $(this).parent().addClass("active");
+        }
+    });
+
+    // Disable link click not scroll top
+    $("a[href='#']").click(function() {
+        return false
+    });
 
 });
 
