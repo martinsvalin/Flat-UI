@@ -46,6 +46,11 @@ $(document).ready(function() {
         }
     });
 
+    $(".btn-group a").click(function() {
+        $(this).siblings().removeClass("active");
+        $(this).addClass("active");
+    });
+
     // Disable link click not scroll top
     $("a[href='#']").click(function() {
         return false
