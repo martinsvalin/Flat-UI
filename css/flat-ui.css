@@ -680,6 +680,7 @@ h6 {
 
 .dk_options_inner {
   overflow: auto;
+  outline: none;
   position: relative; }
 
 .dk_touch .dk_options {
