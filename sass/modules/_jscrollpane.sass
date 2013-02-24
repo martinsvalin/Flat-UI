@@ -30,7 +30,9 @@
   padding: 0
 
 .jspCap
-  display: none
+  display: block
+  height: 3px
+  width: 3px
 
 .jspHorizontalBar .jspCap
   float: left
@@ -39,12 +41,7 @@
   position: relative
 
 .jspDrag
-  // IE fallback
-  background-color: #000
-  background-color: rgba(#000, .25)
-  // IE fallback
-  border-color: #fff
-  border: 1px solid rgba(#fff, .2)
+  background-color: $firm
   border-radius: 20px
   position: relative
   top: 0
@@ -64,10 +61,10 @@
     cursor: default
 
 .jspVerticalBar .jspArrow
-  height: 16px
+  height: 8px
 
 .jspHorizontalBar .jspArrow
-  width: 16px
+  width: 8px
   float: left
   height: 100%
 
