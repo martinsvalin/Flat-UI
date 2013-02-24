@@ -6,6 +6,9 @@ $(function () {
 });
 
 $(document).ready(function() {
+    // Custom scrollbar
+    $(".dk_options_inner").jScrollPane();
+
     // Init tooltips
     $("[data-toggle=tooltip]").tooltip("show");
 
