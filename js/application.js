@@ -6,9 +6,6 @@ $(function () {
 });
 
 $(document).ready(function() {
-    // Custom scrollbar
-    // $(".dk_options_inner").jScrollPane();
-
     // Init tooltips
     $("[data-toggle=tooltip]").tooltip("show");
 
@@ -26,20 +23,6 @@ $(document).ready(function() {
 
     // JS input/textarea placeholder
     $("input, textarea").placeholder();
-
-    // Make logo shine with 2 rotatable colors
-    var colors = ["#2980b9", "#3498db"];
-    var index = 0;
-
-    function rotateBG() {
-        if (index > 1) {
-            index = 0;
-        }
-
-        $(".logo").css("backgroundColor", colors[index]);
-        index++;
-    }
-    window.setInterval(rotateBG, 5000);
 
     // Make pagination demo work
     $(".pagination a").click(function() {
