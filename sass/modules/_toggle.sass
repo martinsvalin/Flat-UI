@@ -53,9 +53,10 @@
 
   // Iconic style -----------------------------
   &.toggle-icon
-    border-radius: 6px
+    border-radius: 6px 7px 7px 6px
 
     &.toggle-off
+      border-radius: 7px 6px 6px 7px
       .toggle-radio
         background-image: url('../images/toggle/block-off.png')
         background-position: 0 0
@@ -63,12 +64,11 @@
     .toggle-radio
       background-image: url('../images/toggle/block-on.png')
       background-position: 62px 0
-      border-radius: 0 6px 6px 0
+      border-radius: 6px
       min-width: 27px
       text-align: right
 
       &:first-child
-        border-radius: 6px 0 6px
         text-align: left
 
 // Serving 2x images
