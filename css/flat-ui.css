@@ -1164,10 +1164,10 @@ textarea,
     display: inline-block;
     zoom: 1;
     *display: inline;
-    -webkit-transition: 0.15s linear;
-    -moz-transition: 0.15s linear;
-    -o-transition: 0.15s linear;
-    transition: 0.15s linear;
+    -webkit-transition: 0.14s linear;
+    -moz-transition: 0.14s linear;
+    -o-transition: 0.14s linear;
+    transition: 0.14s linear;
     -webkit-backface-visibility: hidden; }
     .tagsinput .tag:hover {
       background-color: #16a085;
