@@ -639,7 +639,11 @@
         </div> <!-- /todo list -->
 
         <div class="span8 demo-video">
-          <img src="images/demo/video.jpg" />
+          <video id="my_video_1" class="video-js" controls
+            preload="auto" width="640" height="360" poster="images/video/poster.jpg" data-setup="{}">
+            <source src="video/big_buck_bunny.mp4" type="video/mp4">
+            <source src="video/big_buck_bunny.webm" type="video/webm">
+          </video>
         </div> <!-- /video -->
       </div>
 
@@ -728,6 +732,7 @@
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/bootstrap-tooltip.js"></script>
     <script src="js/jquery.placeholder.js"></script>
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
     <script src="js/application.js"></script>
     <!--[if lt IE 8]>
       <script src="js/icon-font-ie7.js"></script>
