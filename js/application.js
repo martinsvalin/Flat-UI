@@ -7,11 +7,11 @@ $(function () {
 
 $(document).ready(function() {
     if ($.browser.msie) {
-        $("#my_video_1").hide();
-        $("#home_video").show();
+        $(".js-video-not-ie").hide();
+        $(".js-video-ie").show();
     } else {
-        $("#my_video_1").show();
-        $("#home_video").hide();
+        $(".js-video-not-ie").show();
+        $(".js-video-ie").hide();
     }
 
     // Init tooltips
