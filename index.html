@@ -640,10 +640,17 @@
 
         <div class="span8 demo-video">
           <video id="my_video_1" class="video-js" controls
-            preload="auto" width="640" height="360" poster="http://video-js.zencoder.com/oceans-clip.jpg" data-setup="{}">
+            preload="auto" width="640" height="360" poster="images/video/poster.jpg" data-setup="{}">
+            <source src="video/big_buck_bunny.mp4" type="video/mp4">
+            <source src="video/big_buck_bunny.webm" type="video/webm">
+          </video>
+
+          <video id="home_video" class="video-js" controls preload=none width=640 height=264
+            poster="http://video-js.zencoder.com/oceans-clip.jpg">
             <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'/>
             <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm'/>
           </video>
+
         </div> <!-- /video -->
       </div>
 
