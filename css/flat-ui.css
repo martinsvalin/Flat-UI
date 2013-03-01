@@ -2034,7 +2034,7 @@ body.vjs-full-window {
 
 @-webkit-keyframes sharp {
   0% {
-    background: #ebedee;
+    background: #e74c3c;
     border-radius: 10px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -2042,72 +2042,27 @@ body.vjs-full-window {
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  12.5% {
-    background: #1abc9c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  25% {
-    background: #1abc9c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  37.5% {
-    background: #ebedee;
-    border-radius: 10px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); }
-
   50% {
     background: #ebedee;
-    border-radius: 10px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); }
+    border-radius: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); }
 
-  62.5% {
+  100% {
     background: #e74c3c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  75% {
-    background: #e74c3c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  87.5% {
-    background: #ebedee;
     border-radius: 10px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg); } }
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 @-moz-keyframes sharp {
   0% {
-    background: #ebedee;
+    background: #e74c3c;
     border-radius: 10px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -2115,72 +2070,27 @@ body.vjs-full-window {
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  12.5% {
-    background: #1abc9c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  25% {
-    background: #1abc9c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  37.5% {
-    background: #ebedee;
-    border-radius: 10px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); }
-
   50% {
     background: #ebedee;
-    border-radius: 10px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); }
+    border-radius: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); }
 
-  62.5% {
+  100% {
     background: #e74c3c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  75% {
-    background: #e74c3c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  87.5% {
-    background: #ebedee;
     border-radius: 10px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg); } }
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 @-o-keyframes sharp {
   0% {
-    background: #ebedee;
+    background: #e74c3c;
     border-radius: 10px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -2188,72 +2098,27 @@ body.vjs-full-window {
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  12.5% {
-    background: #1abc9c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  25% {
-    background: #1abc9c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  37.5% {
-    background: #ebedee;
-    border-radius: 10px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); }
-
   50% {
     background: #ebedee;
-    border-radius: 10px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); }
+    border-radius: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); }
 
-  62.5% {
+  100% {
     background: #e74c3c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  75% {
-    background: #e74c3c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  87.5% {
-    background: #ebedee;
     border-radius: 10px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg); } }
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 @keyframes sharp {
   0% {
-    background: #ebedee;
+    background: #e74c3c;
     border-radius: 10px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -2261,68 +2126,23 @@ body.vjs-full-window {
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  12.5% {
-    background: #1abc9c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  25% {
-    background: #1abc9c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  37.5% {
-    background: #ebedee;
-    border-radius: 10px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); }
-
   50% {
     background: #ebedee;
-    border-radius: 10px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); }
+    border-radius: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); }
 
-  62.5% {
+  100% {
     background: #e74c3c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  75% {
-    background: #e74c3c;
-    border-radius: 2px;
-    -webkit-transform: scale(0.666) rotate(45deg);
-    -moz-transform: scale(0.666) rotate(45deg);
-    -ms-transform: scale(0.666) rotate(45deg);
-    -o-transform: scale(0.666) rotate(45deg);
-    transform: scale(0.666) rotate(45deg); }
-
-  87.5% {
-    background: #ebedee;
     border-radius: 10px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg); } }
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 .vjs-loading-spinner {
   background: #ebedee;

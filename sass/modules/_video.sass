@@ -318,44 +318,19 @@ body.vjs-full-window
 // Video preloader
 =sharp-keyframes
   0%
-    background: #ebedee
+    background: #e74c3c
     border-radius: 10px
     +transform(rotate(0deg))
-
-  12.5%
-    background: #1abc9c
-    border-radius: 2px
-    +transform(scale(0.666) rotate(45deg))
-
-  25%
-    background: #1abc9c
-    border-radius: 2px
-    +transform(scale(0.666) rotate(45deg))
-
-  37.5%
-    background: #ebedee
-    border-radius: 10px
-    +transform(rotate(90deg))
 
   50%
     background: #ebedee
-    border-radius: 10px
-    +transform(rotate(90deg))
+    border-radius: 0
+    +transform(rotate(180deg))
 
-  62.5%
+  100%
     background: #e74c3c
-    border-radius: 2px
-    +transform(scale(0.666) rotate(45deg))
-
-  75%
-    background: #e74c3c
-    border-radius: 2px
-    +transform(scale(0.666) rotate(45deg))
-
-  87.5%
-    background: #ebedee
     border-radius: 10px
-    +transform(rotate(0deg))
+    +transform(rotate(360deg))
 
 @-webkit-keyframes sharp
   +sharp-keyframes
