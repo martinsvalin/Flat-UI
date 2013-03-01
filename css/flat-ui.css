@@ -325,7 +325,7 @@ h6 {
   margin-bottom: 20px;
   padding-top: 20px; }
   .demo-panel-title small {
-    color: #b9c8d8;
+    color: #bfc1c3;
     font-size: inherit;
     font-weight: 400; }
 
@@ -1004,7 +1004,7 @@ textarea,
     display: none\9; }
   .checkbox.disabled,
   .radio.disabled {
-    color: #95a5a6;
+    color: #d7dddd;
     cursor: not-allowed; }
     .checkbox.disabled .icon,
     .radio.disabled .icon {
@@ -1088,7 +1088,7 @@ textarea,
       background-position: 0 0;
       color: white;
       left: 0;
-      margin-left: 0;
+      margin-left: 0.5px;
       margin-right: -13px;
       z-index: 1; }
       .toggle.toggle-off .toggle-radio:first-child {
