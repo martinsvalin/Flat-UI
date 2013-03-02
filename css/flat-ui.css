@@ -1676,28 +1676,53 @@ textarea,
     margin: 0;
     list-style-type: none; }
   .todo li {
-    background-color: #34495e;
+    background: #34495e url("../images/todo/todo.png") 92% center no-repeat;
+    background-size: 20px 20px;
+    cursor: pointer;
     margin-top: 2px;
-    padding: 19px 25px;
-    position: relative; }
+    padding: 19px 42px 19px 25px;
+    position: relative;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    -webkit-backface-visibility: hidden; }
     .todo li:first-child {
       margin-top: 0; }
     .todo li:last-child {
       border-radius: 0 0 6px 6px; }
-    .todo li.active {
-      background-color: transparent;
+    .todo li.todo-done {
+      background: transparent url("../images/todo/done.png") 92% center no-repeat;
+      background-size: 20px 20px;
       color: #1abc9c; }
-      .todo li.active .todo-name {
+      .todo li.todo-done .todo-name {
         color: #1abc9c; }
 
-.todo-title {
-  background-color: #1abc9c;
+.todo-search {
+  background: #1abc9c url("../images/todo/search.png") 92% center no-repeat;
+  background-size: 16px 16px;
   border-radius: 6px 6px 0 0;
+  color: #34495e;
+  padding: 19px 25px 20px; }
+
+input.todo-search-field {
+  background: none;
+  border: none;
   color: #34495e;
   font-size: 19px;
   font-weight: 700;
   margin: 0;
-  padding: 24px 25px 25px; }
+  padding: 5px 0;
+  text-indent: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+  input.todo-search-field:-moz-placeholder {
+    color: #34495e; }
+  input.todo-search-field::-webkit-input-placeholder {
+    color: #34495e; }
+  input.todo-search-field.placeholder {
+    color: #34495e; }
 
 .todo-icon {
   float: left;
@@ -1713,6 +1738,14 @@ textarea,
   font-size: 17px;
   margin: 1px 0 3px; }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
+  .todo li {
+    background-image: "../images/todo/todo-2x.png"; }
+    .todo li.todo-done {
+      background-image: "../images/todo/done-2x.png"; }
+
+  .todo-search {
+    background-image: "../images/todo/search-2x.png"; } }
 footer {
   background-color: #eceff1;
   color: #bdc1c5;

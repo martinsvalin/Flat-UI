@@ -6,6 +6,12 @@ $(function () {
 });
 
 $(document).ready(function() {
+    // Todo list
+    $(".todo li").click(function() {
+        $(this).toggleClass("todo-done");
+    });
+
+    // Serve separate video for IE
     if ($.browser.msie) {
         $(".js-video-not-ie").hide();
         $(".js-video-ie").show();
