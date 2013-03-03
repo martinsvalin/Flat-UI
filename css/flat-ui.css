@@ -419,17 +419,90 @@ h6 {
   height: 120px;
   margin: 0 auto 32px;
   padding: 40px 28px 30px 32px;
+  text-align: center;
   width: 130px; }
   .demo-download img {
     height: 104px;
     width: 82px; }
 
+.demo-download-text {
+  font-size: 15px;
+  padding: 20px 0;
+  text-align: center; }
+
 .demo-text-box a:hover {
   color: #1abc9c; }
 
+.demo-imac {
+  margin-bottom: 77px; }
+
+.demo-browser {
+  background: #2c3e50 url("../images/demo/browser.png") 0 0 no-repeat;
+  background-size: 659px 42px;
+  border-radius: 0 0 6px 6px;
+  color: white;
+  margin: 0 41px 140px 0;
+  padding-top: 42px; }
+
+.demo-browser-side {
+  float: left;
+  padding: 22px 20px;
+  width: 111px; }
+  .demo-browser-side > h5 {
+    margin-bottom: 3px; }
+  .demo-browser-side > h6 {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: 3px; }
+
+.demo-browser-author {
+  background: url("../images/demo/browser-author.jpg") center center no-repeat;
+  border: 3px solid white;
+  display: block;
+  height: 84px;
+  margin: 0 auto;
+  width: 84px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%; }
+
+.demo-browser-action {
+  padding: 30px 0 12px; }
+  .demo-browser-action > .btn {
+    padding: 9px 0 10px 11px;
+    text-align: left;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+    .demo-browser-action > .btn:before {
+      color: white;
+      content: "\e004";
+      font-size: 16px;
+      font-family: "Flat-UI-Icons-16";
+      font-weight: 300;
+      margin-right: 12px;
+      position: relative;
+      top: 1px;
+      -webkit-font-smoothing: antialiased; }
+
+.demo-browser-content {
+  background-color: #34495e;
+  border-radius: 0 0 6px;
+  overflow: hidden;
+  padding: 21px 0 0 20px; }
+  .demo-browser-content > img {
+    border: 6px solid white;
+    float: left;
+    margin: 0 15px 20px 0;
+    width: 134px; }
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
   .logo {
-    background-image: url("../images/demo/logo-mask-2x.png"); } }
+    background-image: url("../images/demo/logo-mask-2x.png"); }
+
+  .demo-browser {
+    background-image: url("../images/demo/browser-2x.png"); } }
 .navbar {
   font-size: 18px; }
   .navbar .brand {
