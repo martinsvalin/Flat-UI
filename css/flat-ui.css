@@ -1760,7 +1760,7 @@ textarea,
     background-size: 20px 20px;
     cursor: pointer;
     margin-top: 2px;
-    padding: 19px 42px 19px 25px;
+    padding: 18px 42px 17px 25px;
     position: relative;
     -webkit-transition: 0.25s;
     -moz-transition: 0.25s;
@@ -1770,7 +1770,8 @@ textarea,
     .todo li:first-child {
       margin-top: 0; }
     .todo li:last-child {
-      border-radius: 0 0 6px 6px; }
+      border-radius: 0 0 6px 6px;
+      padding-bottom: 18px; }
     .todo li.todo-done {
       background: transparent url("../images/todo/done.png") 92% center no-repeat;
       background-size: 20px 20px;
