@@ -796,7 +796,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  border: 2px solid rgba(52, 73, 94, 0.15);
+  border: 2px solid #dce4ec;
   color: #34495e;
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -1044,9 +1044,9 @@ input[disabled],
 input[readonly],
 textarea[disabled],
 textarea[readonly] {
-  background-color: rgba(52, 73, 94, 0.1);
+  background-color: #eaeded;
   border-color: transparent;
-  color: rgba(52, 73, 94, 0.25); }
+  color: #cad2d3; }
 
 input,
 textarea,

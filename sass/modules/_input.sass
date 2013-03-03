@@ -22,7 +22,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input
-  border: 2px solid rgba($base, .15)
+  border: 2px solid scale-color($base, $lightness: 85%)
   color: $base
   font-family: $base-font-family
   font-size: $base-font-size
@@ -53,9 +53,9 @@ input[disabled],
 input[readonly],
 textarea[disabled],
 textarea[readonly]
-  background-color: rgba($base, .1)
+  background-color: scale-color($gray, $lightness: 80%)
   border-color: transparent
-  color: rgba($base, .25)
+  color: scale-color($gray, $lightness: 50%)
 
 // Text field grids -----------------
 input,
