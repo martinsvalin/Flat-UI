@@ -1611,9 +1611,12 @@ textarea,
   text-transform: uppercase; }
   .palette dt {
     display: block;
-    font-weight: 700; }
+    font-weight: 500;
+    opacity: 0.8; }
   .palette dd {
-    margin-left: 0; }
+    font-weight: 100;
+    margin-left: 0;
+    opacity: 0.8; }
 
 .palette-firm {
   background-color: #1abc9c; }
