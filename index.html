@@ -629,18 +629,21 @@
         </div> <!-- /todo list -->
 
         <div class="span8 demo-video">
-          <video class="video-js js-video-not-ie" controls
-            preload="auto" width="620" height="349" poster="images/video/poster.jpg" data-setup="{}">
-            <source src="video/big_buck_bunny.mp4" type="video/mp4">
-            <source src="video/big_buck_bunny.webm" type="video/webm">
-          </video>
+          <!--[if !IE]> -->
+            <video class="video-js" controls
+              preload="auto" width="620" height="349" poster="images/video/poster.jpg" data-setup="{}">
+              <source src="video/big_buck_bunny.mp4" type="video/mp4">
+              <source src="video/big_buck_bunny.webm" type="video/webm">
+            </video>
+          <!-- <![endif]-->
 
-          <video class="video-js js-video-ie" controls preload=none width=640 height=264
-            poster="http://video-js.zencoder.com/oceans-clip.jpg">
-            <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'/>
-            <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm'/>
-          </video>
-
+          <!--[if IE]>
+            <video class="video-js" controls
+              preload="auto" width="620" height="256" poster="http://video-js.zencoder.com/oceans-clip.jpg" data-setup="{}">
+              <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'/>
+              <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm'/>
+            </video>
+          <![endif]-->
         </div> <!-- /video -->
       </div>
 

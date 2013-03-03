@@ -11,15 +11,6 @@ $(document).ready(function() {
         $(this).toggleClass("todo-done");
     });
 
-    // Serve separate video for IE
-    if ($.browser.msie) {
-        $(".js-video-not-ie").hide();
-        $(".js-video-ie").show();
-    } else {
-        $(".js-video-not-ie").show();
-        $(".js-video-ie").hide();
-    }
-
     // Init tooltips
     $("[data-toggle=tooltip]").tooltip("show");
 
