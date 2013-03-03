@@ -1050,7 +1050,8 @@ textarea[disabled],
 textarea[readonly] {
   background-color: #eaeded;
   border-color: transparent;
-  color: #cad2d3; }
+  color: #cad2d3;
+  cursor: default; }
 
 input,
 textarea,
@@ -1088,7 +1089,7 @@ textarea,
   .checkbox.disabled,
   .radio.disabled {
     color: #d7dddd;
-    cursor: not-allowed; }
+    cursor: default; }
     .checkbox.disabled .icon,
     .radio.disabled .icon {
       opacity: 0;
