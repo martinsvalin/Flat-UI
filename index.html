@@ -344,10 +344,9 @@
         </div>
 
         <div class="span3">
-          <div class="prl">
+          <div class="demo-tooltips">
             <h3 class="demo-panel-title">Tooltips</h3>
-            <p align="center" class="demo-tooltip-bottom" data-toggle="tooltip" data-placement="bottom" title="Tooltip under the text."></p>
-            <div class="demo-tooltips"></div>
+            <p align="center" data-toggle="tooltip" data-placement="bottom" title="Tooltip under the text."></p>
             <p align="center" data-toggle="tooltip" title="Here is the sample of talltooltip that contains three lines or more. More."></p>
           </div>
         </div> <!-- /span3 with tooltips -->
@@ -436,7 +435,7 @@
           <div class="row mbl">
             <div class="span2">
               <dl class="palette palette-bright">
-                <dt>#1abc9c</dt>
+                <dt>#f1c40f</dt>
                 <dd>Sun flower</dd>
               </dl>
               <dl class="palette palette-bright-dark">
@@ -447,7 +446,7 @@
 
             <div class="span2">
               <dl class="palette palette-carrot">
-                <dt>#2ecc71</dt>
+                <dt>#e67e22</dt>
                 <dd>Carrot</dd>
               </dl>
               <dl class="palette palette-pumpkin">
@@ -509,7 +508,7 @@
       <h3 class="demo-panel-title">Vector Icons <small>(14)</small></h3>
       <div class="demo-illustrations">
         <img src="images/illustrations/compass.png" class="big-illustration" src="" />
-        <img src="images/illustrations/settings.png" src="" />
+        <img src="images/illustrations/infinity.png" src="" />
         <img src="images/illustrations/map.png" src="" />
         <img src="images/illustrations/paper.png" src="" />
         <img src="images/illustrations/gift.png" src="" />
@@ -517,13 +516,13 @@
         <img src="images/illustrations/calendar.png" src="" />
       </div>
       <div class="demo-illustrations">
-        <img src="images/illustrations/clipboard.png" src="" />
+        <img src="images/illustrations/clipboard.png" class="big-illustration-pusher" src="" />
         <img src="images/illustrations/bag.png" src="" />
-        <img src="images/illustrations/share.png" class="big-illustration" src="" />
+        <img src="images/illustrations/share.png" src="" />
         <img src="images/illustrations/colors.png" src="" />
         <img src="images/illustrations/mail.png" src="" />
         <img src="images/illustrations/book.png" src="" />
-        <img src="images/illustrations/news.png" src="" />
+        <img src="images/illustrations/retina.png" class="big-retina-illustration" src="" />
       </div>
 
       <div class="demo-icons">
@@ -659,7 +658,7 @@
 
         <div class="span3">
           <div class="tile">
-            <img class="tile-image" alt="" src="images/illustrations/settings.png" />
+            <img class="tile-image" alt="" src="images/illustrations/infinity.png" />
             <h3 class="tile-title">Easy to Customize</h3>
             <p>Vector-based shapes and minimum of layer styles.</p>
             <a class="btn btn-primary btn-large btn-block" href="#">Get Pro</a>
@@ -686,7 +685,29 @@
         </div>
       </div> <!-- /tiles -->
 
-      <img src="images/demo/imac.png" alt="Retina iMac" class="demo-imac" />
+      <div class="login">
+        <div class="login-screen">
+          <div class="login-icon">
+            <img src="images/login/icon.png" alt="Welcome to Mail App" />
+            <h4>Welcome to <small>Mail App</small></h4>
+          </div>
+
+          <div class="login-form">
+            <div class="control-group">
+              <input type="text" class="login-field" value="" placeholder="Enter your name" id="login-name" />
+              <label class="login-field-icon fui-man-16" for="login-name"></label>
+            </div>
+
+            <div class="control-group">
+              <input type="password" class="login-field" value="" placeholder="Password" id="login-pass" />
+              <label class="login-field-icon fui-lock-16" for="login-pass"></label>
+            </div>
+
+            <a class="btn btn-primary btn-large btn-block" href="#">Login</a>
+            <a class="login-link" href="#">Lost your password?</a>
+          </div>
+        </div>
+      </div>
 
       <div class="row">
         <div class="span9">
@@ -720,7 +741,7 @@
             <img src="images/demo/html-icon.png" src="Free PSD" />
           </div>
 
-          <a href="#" class="btn btn-primary btn-large btn-block">Download</a>
+          <a href="https://github.com/designmodo/Flat-UI/archive/master.zip" class="btn btn-primary btn-large btn-block">Download</a>
 
           <p class="demo-download-text">Your likes, shares and comments make us happy!</p>
         </div>
@@ -731,19 +752,35 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="span8">
-            <h3>Subscribe</h3>
+          <div class="span7">
+            <h3 class="footer-title">Subscribe</h3>
             <p>Do you like this freebie? Want to get more stuff like this?<br/>
               Subscribe to designmodo news and updates to stay tuned on great designs.<br/>
               Go to: <a href="http://designmodo.com/flat-free" target="_blank">designmodo.com/flat-free</a>
             </p>
-            <h6 class="footer-copyright">Designmodo &copy; 2013</h6>
-          </div>
 
-          <div class="span4 footer-brand">
-            <a href="http://designmodo.com" target="_blank">
+            <p class="pvl">
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://designmodo.com/flat-free/" data-text="Flat UI Free - PSD&amp;HTML User Interface Kit" data-via="designmodo" data-size="large">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </p>
+
+            <a class="footer-brand" href="http://designmodo.com" target="_blank">
               <img src="images/footer/logo.png" alt="Designmodo.com" />
             </a>
+          </div> <!-- /span8 -->
+
+          <div class="span5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Get Flat UI Pro</h3>
+              <ul>
+                <li>Tons of Basic and Custom UI Elements</li>
+                <li>A Lot of Useful Samples</li>
+                <li>More Vector Icons and Glyphs</li>
+                <li>Pro Color Swatches</li>
+                <li>Bootstrap Based HTML/CSS/JS Layout</li>
+              </ul>
+              Go to: <a href="http://designmodo.com/flat" target="_blank">designmodo.com/flat</a>
+            </div>
           </div>
         </div>
       </div>
@@ -764,5 +801,15 @@
       <script src="js/icon-font-ie7.js"></script>
       <script src="js/icon-font-ie7-24.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try{
+        var pageTracker = _gat._getTracker("UA-19972760-2");
+        pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
   </body>
 </html>

@@ -50,9 +50,11 @@
 .demo-tooltips
   height: 126px
 
-.demo-tooltip-bottom
-  position: relative
-  top: -29px
+  // Needed just for the demo. Don't use it in producion ;)
+  .tooltip
+    left: -8px !important
+    position: relative !important
+    top: -8px !important
 
 .demo-headings
   margin-bottom: 12px
@@ -99,12 +101,20 @@
     width: 100px
     vertical-align: bottom
 
+    &:first-child
+      margin-left: 0
+
     &.big-illustration
       height: 111px
       width: 112px
 
-    &:first-child
-      margin-left: 0
+    &.big-retina-illustration
+      height: 104px
+      margin-right: -24px
+      width: 117px
+
+    &.big-illustration-pusher
+      margin-right: 12px
 
 .demo-samples
   margin-bottom: 46px
@@ -143,9 +153,6 @@
 .demo-text-box
   a:hover
     color: $firm
-
-.demo-imac
-  margin-bottom: 77px
 
 .demo-browser
   background: scale-color($base, $lightness: -15%) url('../images/demo/browser.png') 0 0 no-repeat
