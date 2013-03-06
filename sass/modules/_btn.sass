@@ -1,8 +1,10 @@
 =button-states($color)
   background-color: $color
-  &:hover
+  &:hover,
+  &:focus
     background-color: scale-color($color, $lightness: 20%)
-  &:active
+  &:active,
+  &.active
     background-color: scale-color($color, $lightness: -15%)
 
 // Buttons -----------------------
@@ -11,14 +13,19 @@
   background: $base
   color: $inverse
   font-size: 16.5px
+  text-decoration: none
   text-shadow: none
   +box-shadow(none)
+  +transition(.25s)
 
-  &:hover
+  &:hover,
+  &:focus
     background-color: scale-color($base, $lightness: 20%)
     color: $inverse
+    +transition(.25s)
 
-  &:active
+  &:active,
+  &.active
     background-color: scale-color($base, $lightness: -15%)
     color: rgba($inverse, .75)
     +box-shadow(none)
@@ -48,4 +55,19 @@
 
   &.btn-warning
     +button-states($warning)
+
+  // Button with icon inside
+  .btn-toolbar &
+    font-size: 18px
+    padding: 10px 14px 9px
+
+    &:first-child
+      +border-radius(6px 0 0 6px)
+
+    &:last-child
+      +border-radius(0 6px 6px 0)
+
+.btn-toolbar
+  .btn.active
+    color: $inverse
 

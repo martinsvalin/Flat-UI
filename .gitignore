@@ -1,6 +1,6 @@
 *.swp
 *.swo
-.cache
+.sass-cache
 .local
 *.DS_Store
 
