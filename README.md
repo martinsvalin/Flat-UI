@@ -7,11 +7,15 @@ You are allowed to use these elements anywhere you want, however we’ll highly 
 
 Thanks for supporting our website and enjoy!
 
-Links:
-http://designmodo.com/flat-free
+## Links:
 
-ATENTION! Buy Now Premium version of Flat UI! - http://designmodo.com/flat/
++ http://designmodo.com/flat-free
++ ATENTION! Buy Now Premium version of Flat UI! - http://designmodo.com/flat/
 
+## Changelog
+
+1.0 Fixed several small IE bugs
+1.1 New icons replaced with those 'violated', Login screen implemented to a real HTML one. Small bug fixes and refinements.
 
 ## Authors
 
