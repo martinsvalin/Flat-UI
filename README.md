@@ -15,7 +15,7 @@ Thanks for supporting our website and enjoy!
 ## Changelog
 
 + 1.0 Fixed several small IE bugs
-+ 1.1 New icons replaced with those 'violated', Login screen implemented to a real HTML one. Small bug fixes and refinements.
++ 1.1 New icons, Login screen implemented to a real HTML one. Small bug fixes and refinements.
 
 ## Authors
 
