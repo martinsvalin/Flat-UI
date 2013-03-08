@@ -9,8 +9,9 @@ Thanks for supporting our website and enjoy!
 
 ## Links:
 
-+ http://designmodo.com/flat-free
-+ ATENTION! Buy Now Premium version of Flat UI! - http://designmodo.com/flat/
++ [Demo page](http://designmodo.com/demo/flat-ui/)
++ [Official page](http://designmodo.com/flat-free)
++ [Buy Now Premium version of Flat UI](http://designmodo.com/flat/)
 
 ## Changelog
 
